@@ -9,7 +9,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 # --- CONFIG FROM ENVIRONMENT ---
 target_ip = os.getenv("TARGET_IP", "62.146.239.123")
 target_port = int(os.getenv("TARGET_PORT", "30120"))
-num_processes = int(os.getenv("PROCES", "15")) 
+num_processes = int(os.getenv("PROCES", "30")) 
 threads_per_proc = int(os.getenv("THREADS", "10"))
 port_http = int(os.getenv("PORT", "8080"))
 
